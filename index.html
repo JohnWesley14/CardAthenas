@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <title>Card</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <section>
+      <main>
+
+        <header>
+          <img
+            src="https://i.pinimg.com/736x/12/e4/81/12e48138a93418dac4ba6a3d968baea7.jpg"
+            alt="Tanjiro Icon"
+          />
+          <h1>John Wesley</h1>
+          <h5>Dev Web</h5>
+          <p>
+            Desenvolvedor Web focado em front-end, estudando back-end e que
+            busca aprender cada vez mais!
+          </p>
+        </header>
+
+        <aside>
+          <div>
+            <a href="https://www.instagram.com/johnwesleyrvaz/">Instagram</a>
+          </div>
+          <div>
+            <a href="#">Discord</a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/johnwesleyrvaz/">Github</a>
+          </div>
+        </aside>
+
+        <footer>
+          <div class="FooterHeader">
+            <h6>Skills</h6>
+            <hr />
+          </div>
+          <div class="FooterSectionSkills">
+            <div class="Skills1">
+               <a href="#">UI/UX</a>
+               <a href="#">Front-End</a>
+               <a href="#">Back-End</a>
+               <a href="#">NextJS</a>
+               <a href="#">Figma</a>
+            </div>
+            <div class="Skills2">
+               <a href="#">TailwindCSS</a>
+               <a href="#">Mobile</a>
+               <a href="#">React Native</a>
+               <a href="#">Javascript</a>
+            </div>
+            
+            
+          </div>
+        </footer>
+      </main>
+    </section>
+  </body>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+   ScrollReveal().reveal('main', { delay: 50, duration: 800, origin: 'left' , distance: '100px'});
+   ScrollReveal().reveal('header', { delay: 50, duration: 1400, origin: 'top' , distance: '300px'});
+   ScrollReveal().reveal('aside', { delay: 50, duration: 1400, origin: 'left' , distance: '500px'});
+   ScrollReveal().reveal('.FooterHeader', { delay: 50, duration: 1500, origin: 'right' , distance: '500px'});
+   ScrollReveal().reveal('.Skills1', { delay: 200, duration: 1000, origin: 'right', distance: '600px' });
+   ScrollReveal().reveal('.Skills2', { delay: 300, duration: 1200, origin: 'bottom', distance: '600px' });
+  </script>
+</html>
